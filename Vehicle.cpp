@@ -7,12 +7,12 @@ Vehicle: Vehicle()
 	maxspeed=10.0;
 }
 
-void vehicle::set chassisNum (string C)
+void vehicle::setchassisNum (string C)
 {
 	chassisNum = C;
 }
 
-string vehicle::ge chassisNum()
+string vehicle::getchassisNum()
 {
 	//code
 }
