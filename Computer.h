@@ -5,7 +5,7 @@
 class Computer
 {
 	private:
-		String brandName;
+		string brandName;
 		int totalRam;
 		
 	public:
