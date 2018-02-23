@@ -7,6 +7,12 @@ Computer::Computer()
 	totalRam=0;
 }
 
+Computer::Computer(string brand, int ram)
+{
+	brandName=brand;
+	totalRam=ram;
+}
+
 void Computer::setBrandName (string brand)
 {
 	brandName = brand;

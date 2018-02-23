@@ -12,6 +12,7 @@ class Computer
 		
 	public:
 		Computer();
+		Computer(string, int);
 		
 		void setBrandName(string);
 		string getBrandName();
