@@ -6,14 +6,14 @@
 class Computer
 {
 	private:
-		string brandName;
+		std::string brandName;
 		int totalRam;
 		
 	public:
 		Computer();
 		
-		void setBrandName(string);
-		string getBrandName();
+		void setBrandName(std::string);
+		std::string getBrandName();
 		
 		void setTotalRam(int);
 		int getTotalRam();
