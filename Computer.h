@@ -18,5 +18,5 @@ Class Computer
 		int getTotalRam();
 		
 		// other methods	
-}
+};
 #endif
