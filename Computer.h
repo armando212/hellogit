@@ -2,7 +2,7 @@
 #ifndef COMPUTER_H
 #define COMPUTER_H
 
-Class Computer
+class Computer
 {
 	private:
 		String brandName;
