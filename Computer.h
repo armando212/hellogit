@@ -1,19 +1,20 @@
 #include <iostream>
 #include <string>
+using namespace std;
 #ifndef COMPUTER_H
 #define COMPUTER_H
 
 class Computer
 {
 	private:
-		std::string brandName;
+		string brandName;
 		int totalRam;
 		
 	public:
 		Computer();
 		
-		void setBrandName(std::string);
-		std::string getBrandName();
+		void setBrandName(string);
+		string getBrandName();
 		
 		void setTotalRam(int);
 		int getTotalRam();
